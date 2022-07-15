@@ -9,6 +9,6 @@ Projects, practices and exercises using HTML5, CSS3 and Sass
 A web challenge form Frontend Mentor
 
 - 🎯 Main Goal: Use flexbox and first mobile design.
-- 🗂️ Repository: [link](https://github.com/orses/html-css)
+- 🗂️ Repository: [link](hhttps://github.com/orses/html-css/tree/main/flex_columns)
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/flex_columns/)
-- 📄 Solution URL on Frontend Mentor: [Add solution URL here](https://your-solution-url.com)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/flexbox-with-bem-names-variables-and-media-queries-h2loVogl5i)
