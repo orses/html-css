@@ -14,8 +14,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot_desktop.png)
-![](./screenshot_movile.png)
+![Project Desktop image](./data/screenshot_desktop.png)
+![Project Movile image](./data/screenshot_movile.png)
 
 ### Links
 
@@ -39,12 +37,13 @@ Users should be able to:
 
 ### Built with
 
+- Mobile-first workflow
 - Semantic HTML5 markup
+- BEM names for CSS class
 - CSS custom properties
 - Flexbox
 - CSS variables
 - CSS media queries
-- BEM names for CSS class
 
 ### What I learned
 
@@ -57,3 +56,4 @@ Design the entire project from the beginning with mobile in mind. When everythin
 ## Acknowledgments
 
 Thanks to Frontend Mentor and all the people behind designing and creating challenges.
+And thanks to everyone who participates giving their opinion on the projects of others.
