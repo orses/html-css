@@ -18,13 +18,8 @@ A web challenge form Frontend Mentor
 
 A web challenge form Frontend Mentor
 
-<<<<<<< HEAD
 - 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design.
 - 🧑‍💻 Level: Newbie
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/article_preview)
-=======
-- 🎯 Main Goal: Use BEM, flexbox and first mobile design.
-- 🗂️ Repository: [link](hhttps://github.com/orses/html-css/tree/main/article_preview)
->>>>>>> c21bc87a20ffb7cc09926fac6872e988ba3dea88
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/article_preview/)
 - 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/flexbox-with-bem-names-variables-and-media-queries-h2loVogl5i)

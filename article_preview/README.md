@@ -34,11 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/flexbox-with-bem-names-variables-and-media-queries-h2loVogl5i)
-<<<<<<< HEAD
 - Live Site URL: [GitHub](https://orses.github.io/html-css/article_preview/)
-=======
-- Live Site URL: [GitHub](https://orses.github.io/html-css/flex/article_preview/)
->>>>>>> c21bc87a20ffb7cc09926fac6872e988ba3dea88
 
 ## My process
 
