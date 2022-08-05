@@ -32,4 +32,4 @@ A web challenge form Frontend Mentor
 - 🧑‍💻 Level: Newbie
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/landing_page_huddle)
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/landing_page_huddle/)
-- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/mobile-first-bem-css-transitions-and-iife-javascript-function-_7SDIFelBd)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/landing-page-with-bem-qww4-99pEs)

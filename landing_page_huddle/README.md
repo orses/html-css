@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/mobile-first-bem-css-transitions-and-iife-javascript-function-_7SDIFelBd)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/landing-page-with-bem-qww4-99pEs)
 - Live Site URL: [GitHub](https://orses.github.io/html-css/landing_page_huddle/)
 
 ## My process
