@@ -1,6 +1,6 @@
-# Frontend Mentor - Article preview component solution
+# Frontend Mentor - Huddle landing page with single introductory section solution
 
-This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -21,20 +21,20 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- See the social media share links when they click the share icon
+- View the optimal layout for the page depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
-<img src="./data/screenshot_desktop.png" width="600">
-<img src="./data/screenshot_desktop_active.png" width="600">
+<img src="./data/screenshot_desktop.jpg" width="600">
+<img src="./data/screenshot_desktop_active.jpg" width="600">
 <img src="./data/screenshot_mobile_375.jpg" width="300">
-<img src="./data/screenshot_mobile_375_active_state.jpg" width="300">
+<img src="./data/screenshot_mobile_375_mobile_landscape.jpg" width="300">
 
 ### Links
 
 - Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/mobile-first-bem-css-transitions-and-iife-javascript-function-_7SDIFelBd)
-- Live Site URL: [GitHub](https://orses.github.io/html-css/article_preview/)
+- Live Site URL: [GitHub](https://orses.github.io/html-css/landing_page_huddle/)
 
 ## My process
 
@@ -47,17 +47,20 @@ Users should be able to:
 - Flexbox
 - CSS variables
 - CSS media queries
-- JavaScript IIFE functions and event listener
 
 ### What I learned
 
 - It has made me work all the time with the mobile in mind as the initial premise (mobile first workflow).
 - The use of BEM to name CSS classes.
-- Position an element (Share link) so that it is always visible, even if a component is called that by default occupies its place overlapping.
+- How to insert and manage SVG icons
+- Use a single media query to handle all available viewport response.
 
 ### Continued development
 
-Develop the semantics of a card type component and make it perfectly accessible to screens, keyboards and screen readers.
+Further developing semantics, BEM names, and looking into reusable CSS design patterns.
+Try to make the measurements more associated or dependent on the text (padding, margin, line-height, etc.)
+
+### Useful resources
 
 ## Author
 

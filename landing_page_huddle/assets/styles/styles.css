@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+/*********************************\
+* GLOBAL
+\*********************************/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --secondary-color: hsl(257, 40%, 49%);
+  --primary-color: hsl(300, 69%, 71%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+/*********************************\
+* HERO SECTION
+\*********************************/
+.hero {
+  background-image: url('../images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+  padding: 0 2.6em;
+}
+
+.hero__body {
+  letter-spacing: 0.06rem;
+  order: 2;
+}
+
+.hero__container {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.hero__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.hero__image {
+  max-width: 95%;
+}
+
+.hero__main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero__media {
+  order: 1; /* display the image before h1, but for semantic and accessibility should stay after h1 */
+}
+
+.hero__logo {
+  margin: 1.5em 0 1.5em 0;
+  width: 110px;
+}
+
+.hero__text {
+  font-size: 1.4rem;
+  line-height: 1.6em;
+  margin-bottom: 1.5em;
+  opacity: 0.9;
+}
+
+.hero__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.4em;
+  margin: 1.5em 0 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url('../images/bg-desktop.svg');
+    background-size: cover;
+    margin-right: 0em;
+  }
+
+  .hero__container {
+    width: 1440px;
+  }
+
+  .hero__body {
+    flex-basis: 38%;
+  }
+
+  .hero__footer {
+    justify-content: flex-end;
+    margin-top: 0;
+  }
+
+  .hero__logo {
+    margin: 2.5em 0 5em 0;
+    width: 250px;
+  }
+
+  .hero__main {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .hero__media {
+    flex-basis: 62%;
+  }
+
+  .hero__image {
+    width: 100%;
+  }
+
+  .hero__text {
+    font-size: 1.9rem;
+    line-height: 1.6em;
+    letter-spacing: 0;
+  }
+
+  .hero__title {
+    font-size: 4rem;
+    line-height: 1.6em;
+    margin: 1.4em 0 0.7em 0;
+  }
+}
+
+/*********************************\
+* BUTTONS
+\*********************************/
+.btn {
+  border: 0;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.btn-cta {
+  background-color: white;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  color: var(--secondary-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0.5em 5em;
+}
+
+.btn-cta:active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-cta {
+    font-size: 1.8rem;
+    padding: 1.6rem 6rem;
+  }
+}
+
+/*********************************\
+* SOCIAL
+\*********************************/
+.social {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.social__link {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 1.4rem;
+  height: 32px;
+  justify-content: center;
+  text-decoration: none;
+  margin: 1rem;
+  width: 32px;
+}
+
+.social__link:active {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .social__link {
+    height: 45px;
+    font-size: 2rem;
+    width: 45px;
+  }
+}
