@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/landing-page-with-bem-qww4-99pEs)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/responsive-card-using-media-queries-to-a-minimum-S86-8ov5Na)
 - Live Site URL: [GitHub](https://orses.github.io/html-css/card_product_preview/)
 
 ## My process

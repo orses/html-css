@@ -12,7 +12,7 @@ A web challenge form Frontend Mentor
 - 🧑‍💻 Level: Newbie
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_product_preview)
 - 🕹️ Live Demo: [GitHub](https://orses.github.io/html-css/card_product_preview/)
-- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/mobile-first-bem-css-transitions-and-iife-javascript-function-_7SDIFelBd)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-card-using-media-queries-to-a-minimum-S86-8ov5Na)
 
 ### `Article:` preview
 
