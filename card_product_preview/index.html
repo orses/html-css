@@ -21,7 +21,7 @@
             <div class="stack-l">
               <p class="card__category">PERFUME</p>
               <h1 class="card__title">Gabrielle Essence Eau De Parfum</h1>
-              <p>
+              <p class="card__text">
                 A floral, solar and voluptuous interpretation composed by
                 Olivier Polge, Perfumer-Creator for the House of CHANEL.
               </p>
@@ -39,16 +39,20 @@
             </div>
           </div>
         </div>
-        <div class="card__media">
+        <picture class="card__media">
+          <source
+            media="(min-width: 460px)"
+            srcset="./assets/images/image-product-desktop.jpg"
+          />
+          <source
+            media="(max-width: 460px)"
+            srcset="./assets/images/image-product-mobile.jpg"
+          />
           <img
             src="./assets/images/image-product-mobile.jpg"
             alt="Image of a Gabrielle Essence perfume bottle along with some green leaves."
           />
-          <img
-            src="./assets/images/image-product-desktop.jpg"
-            alt="Image of a Gabrielle Essence perfume bottle along with some green leaves."
-          />
-        </div>
+        </picture>
       </article>
     </div>
   </body>
