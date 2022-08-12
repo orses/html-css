@@ -12,7 +12,7 @@ A web challenge form Frontend Mentor
 - 🧑‍💻 Level: Newbie
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_qr_code)
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/card_qr_code/)
-- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/landing-page-with-bem-qww4-99pEs)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/bem-and-ba-1OqGdp2ird)
 
 ### `Article:` card preview
 

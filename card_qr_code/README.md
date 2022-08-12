@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/landing-page-with-bem-qww4-99pEs)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/bem-and-ba-1OqGdp2ird)
 - Live Site URL: [GitHub](https://orses.github.io/html-css/card_qr_code/)
 
 ## My process
