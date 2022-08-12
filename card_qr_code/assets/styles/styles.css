@@ -96,6 +96,7 @@ body {
   box-shadow: 0 0 2px var(--color-grayish-blue);
   max-height: 500px;
   max-width: 320px;
+  min-width: 250px;
 }
 
 .card__media {
