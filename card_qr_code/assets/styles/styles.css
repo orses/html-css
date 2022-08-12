@@ -86,7 +86,7 @@ body {
 }
 
 .stack-l > * + * {
-  margin-block-start: 2.5rem;
+  margin-block-start: 2.2rem;
 }
 /* -----
   CARD
