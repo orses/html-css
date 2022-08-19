@@ -169,7 +169,7 @@ picture {
   content: '';
   left: 0;
   mix-blend-mode: multiply;
-  opacity: 0.75;
+  opacity: 0.95;
   position: absolute;
   right: 0;
   top: 0;
