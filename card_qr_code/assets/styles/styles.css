@@ -18,8 +18,8 @@ html {
 }
 
 *,
-::after,
-::before {
+*::after,
+*::before {
   background-color: inherit;
   border: 0 solid;
   box-sizing: border-box;

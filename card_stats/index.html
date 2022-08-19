@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mentor frontend project to practice card layout with an image that changes location based on device type."
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="cover-l">
+        <div class="center-l">
+          <article class="box-l card">
+            <div class="switcher-l">
+              <div class="box-l card__main">
+                <div class="stack-l">
+                  <h1 class="card__title">
+                    Get <span class="accent-text">insights</span> that help your
+                    business grow.
+                  </h1>
+                  <p class="card__text">
+                    Discover the benefits of data analytics and make better
+                    decisions regarding revenue, customer experience, and
+                    overall efficiency.
+                  </p>
+                  <div class="switcher-l swap-order-l card__stats">
+                    <div>
+                      <h2>Companies</h2>
+                      <p class="highlight">10k+</p>
+                    </div>
+                    <div>
+                      <h2>Templates</h2>
+                      <p class="highlight">314</p>
+                    </div>
+                    <div>
+                      <h2>Queries</h2>
+                      <p class="highlight">12M +</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <picture class="frame-l card__media">
+                <source
+                  media="(min-width: 376px)"
+                  srcset="./assets/images/image-header-desktop.jpg"
+                />
+                <source
+                  media="(max-width: 375px)"
+                  srcset="./assets/images/image-header-mobile.jpg"
+                />
+                <img
+                  src="./assets/images/image-header-mobile.jpg"
+                  alt="Three people working with their computer at an office table."
+                />
+              </picture>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

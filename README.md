@@ -24,6 +24,16 @@ A web challenge form Frontend Mentor
 - 🕹️ Live Demo: [GitHub](https://orses.github.io/html-css/card_product_preview/)
 - 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-card-using-media-queries-to-a-minimum-S86-8ov5Na)
 
+### `Article:` card preview with stats
+
+A web challenge form Frontend Mentor
+
+- 🎯 Main Goal: Use Every Layout, BEM, flexbox and Mobile First workflow design with an image that changes location based on device type.
+- 🧑‍💻 Level: Newbie
+- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_stats)
+- 🕹️ Live Demo: [GitHub](https://orses.github.io/html-css/card_stats/)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-card-using-media-queries-to-a-minimum-S86-8ov5Na)
+
 ### `Article:` preview
 
 A web challenge form Frontend Mentor
