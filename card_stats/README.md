@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/bem-and-ba-1OqGdp2ird)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/card-stats-with-bem-and-flexbox-HAznufOivO)
 - Live Site URL: [GitHub](https://orses.github.io/html-css/card_stats/)
 
 ## My process

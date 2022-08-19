@@ -32,7 +32,7 @@ A web challenge form Frontend Mentor
 - 🧑‍💻 Level: Newbie
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_stats)
 - 🕹️ Live Demo: [GitHub](https://orses.github.io/html-css/card_stats/)
-- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-card-using-media-queries-to-a-minimum-S86-8ov5Na)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/card-stats-with-bem-and-flexbox-HAznufOivO)
 
 ### `Article:` preview
 
