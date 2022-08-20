@@ -40,8 +40,8 @@ A web challenge form Frontend Mentor
 
 - 🎯 Main Goal: Use Every Layout, BEM, flexbox and Mobile First workflow design with an image showing a translucent layer and an icon when hovering over it.
 - 🧑‍💻 Level: Newbie
-- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_nft)
-- 🕹️ Live Demo: [GitHub](https://orses.github.io/html-css/card_nft/)
+- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_nft_preview)
+- 🕹️ Live Demo: [GitHub](https://orses.github.io/html-css/card_nft_preview/)
 - 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/card-stats-with-bem-and-flexbox-HAznufOivO)
 
 ### `Article:` preview with social links
