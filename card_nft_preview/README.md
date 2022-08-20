@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/card-with-flexbox-bem-YPltW-3JHO)
-- Live Site URL: [GitHub](https://orses.github.io/html-css/card_ntf_preview/)
+- Live Site URL: [GitHub](https://orses.github.io/html-css/card_nft_preview/)
 
 ## My process
 
