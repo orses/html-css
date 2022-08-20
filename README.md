@@ -42,7 +42,7 @@ A web challenge form Frontend Mentor
 - 🧑‍💻 Level: Newbie
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_nft_preview)
 - 🕹️ Live Demo: [GitHub](https://orses.github.io/html-css/card_nft_preview/)
-- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/card-stats-with-bem-and-flexbox-HAznufOivO)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/card-with-flexbox-bem-YPltW-3JHO)
 
 ### `Article:` preview with social links
 
