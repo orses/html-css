@@ -188,15 +188,15 @@ a:focus {
 .card__media-icon {
   align-items: center;
   background-color: transparent;
-  display: flex;
   color: var(--color-white);
+  display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
   opacity: 0;
   position: absolute;
-  width: 100%;
   transition: opacity 750ms ease-in;
+  width: 100%;
 }
 
 .card__media-icon:hover,
