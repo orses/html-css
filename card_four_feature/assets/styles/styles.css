@@ -233,6 +233,10 @@ SECTION
 }
 
 @media (min-width: 768px) {
+  .section__header {
+    margin-block: 0;
+  }
+
   .section__title,
   .section__subtitle {
     margin-block: 0;
