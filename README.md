@@ -62,7 +62,7 @@ A web challenge form Frontend Mentor
 - 🧑‍💻 Level: Newbie
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_four_feature)
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/card_four_feature/)
-- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/flexbox-with-bem-names-variables-and-media-queries-h2loVogl5i)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-layout-with-grid-WlZNOBbyaV)
 
 ### `Flexbox:` 3 columns
 

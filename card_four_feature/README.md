@@ -33,7 +33,7 @@ shot. If you prefer not to add a screenshot, feel free to remove this entire sec
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/card-with-flexbox-bem-YPltW-3JHO)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/responsive-layout-with-grid-WlZNOBbyaV)
 - Live Site URL: [GitHub](https://orses.github.io/html-css/card_four_feature/)
 
 ## My process
