@@ -54,6 +54,16 @@ A web challenge form Frontend Mentor
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/article_preview/)
 - 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/mobile-first-bem-css-transitions-and-iife-javascript-function-_7SDIFelBd)
 
+### `Grid:` card four features
+
+A web challenge form Frontend Mentor
+
+- 🎯 Main Goal: Use Grid to present a layout of one column for mobile and three columns for desktop
+- 🧑‍💻 Level: Newbie
+- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_four_feature)
+- 🕹️ Live Demo: [link](https://orses.github.io/html-css/card_four_feature/)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/flexbox-with-bem-names-variables-and-media-queries-h2loVogl5i)
+
 ### `Flexbox:` 3 columns
 
 A web challenge form Frontend Mentor
