@@ -1,0 +1,89 @@
+/* -----
+BUTTONS
+------------------------------------ */
+.btn {
+  background-color: transparent;
+  border: 0;
+  color: var(--color-red);
+  cursor: pointer;
+  font-size: var(--fs-btn-big);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-btn-big);
+}
+
+.btn[class*='btn-cta'] {
+  border-radius: 1.75rem;
+  color: var(--color-white);
+  font-size: var(--fs-btn);
+  padding: 0.5625rem 1.5rem 0.6875rem;
+  text-align: center;
+}
+
+.btn-cta--solid {
+  background-color: var(--color-black);
+}
+
+.btn-cta--solid:hover,
+.btn-cta--solid:focus {
+  background-color: var(--color-blue);
+}
+
+.btn-cta--accent {
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-orange) 0%,
+    var(--color-gradient-pink) 100%
+  );
+
+  padding-block: 0.875rem !important;
+  padding-inline: 2.375rem !important;
+}
+
+.btn-cta--accent:hover,
+.btn-cta--accent:focus {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(
+      180deg,
+      var(--color-gradient-orange) 0%,
+      var(--color-gradient-pink) 100%
+    );
+}
+
+.btn-cta--colorful {
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-blue) 0%,
+    var(--color-gradient-pink) 100%
+  );
+}
+
+.btn-cta--colorful:hover,
+.btn-cta--colorful:focus {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(
+      180deg,
+      var(--color-gradient-blue) -54.32%,
+      var(--color-gradient-pink) 100%
+    );
+}
+
+@media (min-width: 1024px) {
+  .btn[class*='btn-cta'] {
+    font-size: var(--fs-btn-big);
+    padding: 0.875rem 2rem;
+  }
+
+  .btn-cta--accent {
+    padding-block-end: 1rem !important;
+    padding-inline: 2rem !important;
+    padding-block-start: 1.1875rem !important;
+  }
+}
