@@ -92,4 +92,4 @@ A web challenge form Frontend Mentor
 - 🧑‍💻 Level: Newbie
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/landing_page_elearning)
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/landing_page_elearning/)
-- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/landing-page-with-bem-qww4-99pEs)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-landing-page-with-bem-and-grid-_GYSJJJK8p)

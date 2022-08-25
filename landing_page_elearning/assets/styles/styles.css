@@ -122,7 +122,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1040px) {
   .section-hero {
     padding-block-end: 12.0625rem;
   }
@@ -137,7 +137,7 @@
 
   .section-hero .section__media {
     height: 1046px;
-    top: -20rem;
+    top: -24rem;
     right: -30rem;
   }
 }

@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/responsive-layout-with-grid-WlZNOBbyaV)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-with-bem-and-grid-_GYSJJJK8p)
 - Live Site URL: [GitHub](https://orses.github.io/html-css/landing_page_elearning/)
 
 ## My process
