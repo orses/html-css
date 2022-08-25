@@ -84,11 +84,12 @@ A web challenge form Frontend Mentor
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/landing_page_huddle/)
 - 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/landing-page-with-bem-qww4-99pEs)
 
-<!-- <div>
-https://github.com/anuraghazra/github-readme-stats
+### `Landing Page:` Landing Page elearning
 
-  <a href="https://github.com/orses">
-    <img  width="405" src="https://github-readme-stats.vercel.app/api?username=orses&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-    <img   width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=orses&layout=compact&langs_count=7&theme=dracula"/>
-  </a>
-</div> -->
+A web challenge form Frontend Mentor
+
+- 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design a basic landing page with header, main, footer and cards
+- 🧑‍💻 Level: Newbie
+- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/landing_page_elearning)
+- 🕹️ Live Demo: [link](https://orses.github.io/html-css/landing_page_elearning/)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/landing-page-with-bem-qww4-99pEs)

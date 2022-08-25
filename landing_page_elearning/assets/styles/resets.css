@@ -1,0 +1,34 @@
+/* -----
+RESET
+------------------------------------ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  border: 0 solid;
+  box-sizing: inherit;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  overflow-wrap: break-word;
+  padding: 0;
+}
+
+body {
+  font-size: var(--fs-text);
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
+
+button {
+  display: block;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}

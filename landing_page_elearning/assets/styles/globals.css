@@ -1,0 +1,50 @@
+:root {
+  /* colors */
+  --color-black: hsl(233, 54%, 16%);
+  --color-blue: hsl(234, 25%, 52%);
+  --color-gradient-blue: hsl(237, 87%, 64%);
+  --color-gradient-orange: hsl(13, 100%, 64%);
+  --color-gradient-pink: hsl(322, 87%, 55%);
+  --color-gray: hsl(232, 10%, 56%);
+  --color-light-gray: hsl(0, 0%, 95%); /* background body */
+  --color-pink: hsl(341, 100%, 83%);
+  --color-red: hsl(341, 92%, 62%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /* fonts */
+  --font-plain: 'Plus Jakarta Sans', sans-serif;
+
+  /* Typography */
+  --fs-btn: 1rem;
+  --fs-btn-big: 1.125rem; /* 18px */
+  --fs-head1: 2.5rem; /* 40px */
+  --fs-head1-big: 3.5rem; /* 56px */
+  --fs-head2: 1.5rem; /* 24px */
+  --fs-head2-big: 2rem; /* 40px */
+  --fs-head3: 1.25rem; /* 20px */
+  --fs-head3-big: 1.5rem; /* 24px */
+  --fs-subtitle: 1.125rem; /* 18px */
+  --fs-text: 1rem;
+  --fs-text-big: 1.125rem; /* 18px */
+
+  --lh-btn: 1.625rem; /* 26px */
+  --lh-btn-big: 1.75rem; /* 28px */
+  --lh-head1: 3.125rem; /* 50px */
+  --lh-head1-big: 4.375rem; /* 70px */
+  --lh-head2: 2rem;
+  --lh-head2-big: 2.5rem; /* 40px */
+  --lh-head3: 1.5625rem; /* 25px */
+  --lh-head3-big: 1.875rem; /* 30px */
+  --lh-text: 1.625rem; /* 26px */
+  --lh-text-big: 1.75rem; /* 28px */
+  --lh-subtitle: 1.75rem; /* 28px */
+
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+
+  /* GLOBALS */
+  line-height: var(--lh-text);
+  font-family: var(--font-plain);
+  font-weight: var(--fw-medium);
+}

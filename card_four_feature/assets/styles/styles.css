@@ -16,7 +16,7 @@
 
 @font-face {
   font-display: swap;
-  font-family: 'League Spartan';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   src: url('./lib/Google Fonts/Poppins-Bold.ttf') format('truetype');
@@ -34,7 +34,6 @@
   --color-orange: #fcaf4a;
   --color-red: hsl(0, 78%, 62%);
   --color-white: #ffffff;
-  /* background: hsla(213, 47%, 67%, 0.5);
 
   /* fonts */
   --font-plain: 'Poppins', sans-serif;

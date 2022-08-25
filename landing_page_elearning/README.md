@@ -1,6 +1,6 @@
-# Frontend Mentor - Four card feature section solution
+# Frontend Mentor - Skilled e-learning landing page solution
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -21,8 +21,10 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- Two layouts: one columnn for mobile device and three columns for desktop
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+- Work with different dimensions for the header and footer.
+- Work with overlapping images and according to device and density.
 
 ### Screenshot
 
@@ -33,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/responsive-layout-with-grid-WlZNOBbyaV)
-- Live Site URL: [GitHub](https://orses.github.io/html-css/card_four_feature/)
+- Live Site URL: [GitHub](https://orses.github.io/html-css/landing_page_elearning/)
 
 ## My process
 
@@ -49,14 +51,13 @@ Users should be able to:
 
 ### What I learned
 
-The development of grid has been interesting to adapt to responsive design with three types of layouts: for mobile, for tablet and desktop.
-Also interesting is the use of CSS variables from the HTML code, to apply colors to the upper borders of the cards.
-I continued with the practice of embedding local fonts in CSS.
+- Work with different dimensions for the header and footer.
+- Work with overlapping images and deliver images according to pixel density.
 
 ### Continued development
 
-Continue working with grid to see its potential and specify its applications.
-Continue with inline svg files to work with their properties from CSS.
+Stick with CSS Grid, and keep working on the BEM nomenclature.
+Also, keep developing image placements, especially when they overlap other elements on the page.
 
 ## Author
 
