@@ -126,7 +126,7 @@
 @media (min-width: 1040px) {
   .section-hero {
     padding-block-start: 6.5rem;
-    padding-block-end: 15.625rem;
+    padding-block-end: 15.125rem;
   }
 
   .section-hero .section__header {
@@ -145,6 +145,10 @@
 
   .section-hero .section__subtitle {
     margin-block-end: 2.5rem;
+  }
+
+  .section-hero .section__title {
+    margin-block-end: 1.8125rem;
   }
 }
 
