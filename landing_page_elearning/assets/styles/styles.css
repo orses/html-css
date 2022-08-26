@@ -138,12 +138,13 @@
   }
 
   .section-hero .section__media {
-    height: 1090px;
+    height: 1100px;
     top: -24rem;
     right: -30rem;
   }
 
   .section-hero .section__subtitle {
+    max-inline-size: 27.8125rem;
     margin-block-end: 2.5rem;
   }
 
