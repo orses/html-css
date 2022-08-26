@@ -20,6 +20,7 @@ html {
 body {
   font-size: var(--fs-text);
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  overflow-x: hidden; /* if not, the hero image generates a horizontal scroll bar */
 }
 
 button {

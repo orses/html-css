@@ -52,6 +52,7 @@
 
 .section-hero {
   max-width: 1110px;
+  padding-block-start: 2.375rem;
 }
 
 .section-hero .section__header {
@@ -124,7 +125,7 @@
 
 @media (min-width: 1040px) {
   .section-hero {
-    padding-block-end: 12.0625rem;
+    padding-block-end: 15.625rem;
   }
 
   .section-hero .section__header {
@@ -139,6 +140,10 @@
     height: 1046px;
     top: -24rem;
     right: -30rem;
+  }
+
+  .section-hero .section__subtitle {
+    margin-block-end: 2.5rem;
   }
 }
 
