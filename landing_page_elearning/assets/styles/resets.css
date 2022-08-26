@@ -19,7 +19,7 @@ html {
 
 body {
   font-size: var(--fs-text);
-  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  background: linear-gradient(180deg, #ffffff 50%, hsl(236, 100%, 97%) 100%);
   overflow-x: hidden; /* if not, the hero image generates a horizontal scroll bar */
 }
 
