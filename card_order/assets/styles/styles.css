@@ -1,0 +1,304 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url(./lib/Google_Fonts/RedHatDisplay-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./lib/Google_Fonts/RedHatDisplay-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url(./lib/Google_Fonts/RedHatDisplay-Black.ttf) format('truetype');
+}
+
+:root {
+  --color-blue: hsl(255, 100%, 94%);
+  --color-blue-bright: hsl(245, 75%, 52%); /* button, link */
+  --color-blue-dark: hsl(223, 33%, 4%); /* headings */
+  --color-blue-light: hsla(245, 83%, 68%, 1);
+  --color-blue-desaturated: hsl(224, 23%, 55%); /* text, Cancel orden*/
+  --color-blue-pale: hsl(225, 100%, 98%); /* card details */
+  --color-white: hsl(0, 0%, 100%);
+
+  /* fonts */
+  --font-plain: 'Red Hat Display', sans-serif;
+
+  /* typography */
+  --fs-text: 0.9375rem; /* 15 px */
+  --fs-text-big: 1rem;
+  --fs-text-bigger: 1.75rem; /* 28px */
+  --fs-text-biggish: 1.375rem; /*22 px*/
+  --fs-text-small: 0.9375rem; /* 15px */
+  --fs-text-smaller: 0.8125rem; /* 13px */
+  --fs-text-smallish: 0.875rem; /* 14px */
+  --fs-head1: var(--fs-text-biggish);
+  --fs-head1-big: var(--fs-text-bigger);
+  --fs-head2: var(--fs-text-smallish);
+  --fs-head2-big: var(--fs-text-big);
+
+  --lh-text: 1.5625rem; /* 25px paragraph */
+  --lh-text-big: 1.625rem; /*26px*/
+  --lh-text-bigger: 2.3125rem; /*37px*/
+  --lh-text-biggish: 1.8125rem; /* 29px */
+  --lh-text-small: 1.3125rem; /* 21px */
+  --lh-text-smallish: 1.25rem; /* 20px */
+  --lh-text-smaller: 1.0625rem; /* 17px */
+  --lh-text-very-small: 1.1875rem; /* 19px */
+  --lh-head1: var(--lh-text-biggish);
+  --lh-head1-big: var(--lh-text-bigger);
+  --lh-head2: var(--lh-text-very-small);
+  --lh-head2-big: var(--lh-text-small);
+
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+  /* measures */
+  --ratio: 1.5;
+
+  line-height: var(--lh-text);
+  font-family: var(--font-plain);
+  font-weight: var(--fw-medium);
+}
+
+/* -----
+  RESET
+------------------------------------ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  border: 0 solid;
+  box-sizing: inherit;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  overflow-wrap: break-word;
+  padding: 0;
+}
+
+body {
+  background: url(../images/pattern-background-mobile.svg);
+  background-color: var(--color-blue-pale);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: var(--fs-text);
+
+  /* TODO background color */
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: url(../images/pattern-background-desktop.svg);
+    background-size: cover;
+  }
+}
+
+/* -----
+  LAYOUT
+------------------------------------ */
+
+.box-l {
+  background-color: var(--color-white);
+  outline: 0.125rem solid transparent; /* for accessibility */
+  outline-offset: -0.125rem; /* for accessibility */
+  padding: clamp(1.5rem, 0.6149rem + 3.7267vw, 3rem);
+}
+
+.center-l {
+  align-items: center;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1.5rem;
+}
+
+.center-l > * {
+  box-sizing: border-box;
+}
+
+.cover-l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-block-size: 100vh;
+}
+
+.cluster-l {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: flex-start;
+}
+
+.stack-l {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack-l > * + * {
+  margin-block-start: clamp(1.5rem, 1.205rem + 1.2422vw, 2rem);
+}
+
+.stack-l > :nth-child(2) {
+  margin-block-start: clamp(1rem, 0.9631rem + 0.1553vw, 1.0625rem);
+}
+
+.stack-l > :last-child {
+  margin-block-end: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .stack-l > :last-child {
+    margin-block-end: 0;
+  }
+
+  .stack-l > :nth-child(3) {
+    margin-block-start: 1.25rem;
+  }
+}
+
+/* -----
+  CARD
+------------------------------------ */
+.card {
+  border-radius: 1.25rem;
+  max-width: 28.125rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card__details.box-l {
+  background-color: var(--color-blue-pale);
+  border-radius: 0.6875rem;
+  padding-block: clamp(1rem, 0.6681rem + 1.3975vw, 1.5625rem);
+  padding-inline: clamp(1rem, 0.705rem + 1.2422vw, 1.5rem);
+}
+
+.card__details > a {
+  color: var(--color-blue-bright);
+  font-size: clamp(
+    var(--fs-text-smaller),
+    0.7756rem + 0.1553vw,
+    var(--fs-text-smallish)
+  );
+  font-weight: var(--fw-bold);
+  line-height: clamp(
+    var(--lh-text-smaller),
+    0.9887rem + 0.3106vw,
+    var(--lh-text-very-small)
+  );
+  margin-inline-start: auto;
+}
+
+.card__details > a:hover {
+  text-decoration: none;
+  color: var(--color-blue-light);
+}
+
+.card__media {
+  background: url(../images/illustration-hero.svg);
+  background-size: cover;
+  height: clamp(10rem, 7.7873rem + 9.3168vw, 13.75rem);
+}
+
+.card__text {
+  font-size: clamp(var(--fs-text), 0.9006rem + 0.1553vw, var(--fs-text-big));
+  line-height: clamp(var(--lh-text), 1.5256rem + 0.1553vw, var(--lh-text-big));
+  margin-inline: 0.5rem;
+}
+
+.card__title {
+  color: var(--color-blue-dark);
+  font-size: clamp(var(--fs-head1), 1.1537rem + 0.9317vw, var(--fs-head1-big));
+  font-weight: var(--fw-black);
+  line-height: clamp(
+    var(--lh-head1),
+    1.5175rem + 1.2422vw,
+    var(--lh-head1-big)
+  );
+  margin-block-start: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .card :last-child {
+    margin-block-end: 0;
+  }
+
+  .card__title {
+    margin-block-start: -0.1875rem;
+  }
+}
+
+/* -----
+  DETAILS
+------------------------------------ */
+.details__group {
+  text-align: left;
+}
+
+.details__title {
+  color: var(--color-blue-dark);
+  font-weight: var(--fw-black);
+  margin-block-end: clamp(0.1875rem, 0.0769rem + 0.4658vw, 0.375rem);
+}
+
+.details__title,
+.details__currency {
+  font-size: clamp(var(--fs-head2), 0.8012rem + 0.3106vw, var(--fs-head2-big));
+  line-height: clamp(
+    var(--lh-head2),
+    1.5175rem + 1.2422vw,
+    var(--lh-head2-big)
+  );
+}
+
+/* -----
+  BUTTON
+------------------------------------ */
+.btn {
+  background-color: transparent;
+  color: var(--color-blue-desaturated);
+  cursor: pointer;
+  font-weight: var(--fw-black);
+  line-height: var(--lh-text-smallish);
+}
+
+.btn--cancel:hover {
+  color: var(--color-blue-dark);
+}
+
+.btn--cta {
+  border-radius: 0.6875rem;
+  padding: 0.9375rem;
+  background-color: var(--color-blue-bright);
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  color: var(--color-white);
+}
+
+.btn--cta:hover {
+  background-color: var(--color-blue-light);
+}

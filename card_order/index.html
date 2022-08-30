@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Frontend Mentor project to create a basic component for order a payment. The component is a basic card with an image and a button to proceed payment"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <main class="cover-l">
+      <div class="center-l">
+        <article class="card">
+          <div class="card__media"></div>
+          <div class="box-l card__main">
+            <div class="stack-l">
+              <h1 class="card__title">Order Summary</h1>
+              <p class="card__text">
+                You can now listen to millions of songs, audiobooks, and
+                podcasts on any device anywhere you like!
+              </p>
+              <div class="box-l cluster-l card__details">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="24" cy="24" r="24" fill="#DFE6FB" />
+                    <path
+                      fill="#717FA6"
+                      fill-rule="nonzero"
+                      d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"
+                    />
+                  </g>
+                </svg>
+                <div class="details__group">
+                  <h2 class="details__title">Annual Plan</h2>
+                  <p class="details__currency">$59.99/year</p>
+                </div>
+                <a href="./">Change</a>
+              </div>
+              <button class="btn btn--cta">Proceed to Payment</button>
+              <button class="btn btn--cancel">Cancel Order</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>

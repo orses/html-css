@@ -29,7 +29,7 @@ Users should be able to:
 <img src="./data/screenshot_desktop.jpg" width="600">
 <img src="./data/screenshot_desktop_active.jpg" width="600">
 <img src="./data/screenshot_mobile_375.jpg" width="300">
-<img src="./data/screenshot_mobile_375_mobile_landscape.jpg" width="300">
+<img src="./data/screenshot_mobile_375_landscape.jpg" width="300">
 
 ### Links
 
