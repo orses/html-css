@@ -23,12 +23,12 @@
 }
 
 :root {
-  --color-blue: hsl(255, 100%, 94%);
   --color-blue-bright: hsl(245, 75%, 52%); /* button, link */
   --color-blue-dark: hsl(223, 33%, 4%); /* headings */
   --color-blue-light: hsla(245, 83%, 68%, 1);
   --color-blue-desaturated: hsl(224, 23%, 55%); /* text, Cancel orden*/
-  --color-blue-pale: hsl(225, 100%, 98%); /* card details */
+  --color-blue-pale: hsl(225, 100%, 94%); /* card details */
+  --color-blue-pale-very: hsl(255, 100%, 98%);
   --color-white: hsl(0, 0%, 100%);
 
   /* fonts */
@@ -95,8 +95,9 @@ html {
 body {
   background: url(../images/pattern-background-mobile.svg);
   background-color: var(--color-blue-pale);
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   font-size: var(--fs-text);
 
   /* TODO background color */
@@ -112,7 +113,10 @@ svg {
 @media (min-width: 1024px) {
   body {
     background: url(../images/pattern-background-desktop.svg);
-    background-size: cover;
+    background-color: var(--color-blue-pale);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
@@ -192,7 +196,7 @@ svg {
 }
 
 .card__details.box-l {
-  background-color: var(--color-blue-pale);
+  background-color: var(--color-blue-pale-very);
   border-radius: 0.6875rem;
   padding-block: clamp(1rem, 0.6681rem + 1.3975vw, 1.5625rem);
   padding-inline: clamp(1rem, 0.705rem + 1.2422vw, 1.5rem);
@@ -285,20 +289,23 @@ svg {
   cursor: pointer;
   font-weight: var(--fw-black);
   line-height: var(--lh-text-smallish);
+  transition: transform 0.5s ease-in;
 }
 
 .btn--cancel:hover {
   color: var(--color-blue-dark);
+  transform: scale(0.9);
 }
 
 .btn--cta {
-  border-radius: 0.6875rem;
-  padding: 0.9375rem;
   background-color: var(--color-blue-bright);
+  border-radius: 0.6875rem;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
   color: var(--color-white);
+  padding: 0.99999em;
 }
 
 .btn--cta:hover {
   background-color: var(--color-blue-light);
+  transform: scale(0.98);
 }

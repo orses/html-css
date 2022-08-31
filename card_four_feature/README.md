@@ -22,7 +22,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
-- Two layouts: one columnn for mobile device and three columns for desktop
+- Two layouts: one column for mobile device and three columns for desktop
 
 ### Screenshot
 

@@ -8,7 +8,7 @@ Projects, practices and exercises using HTML5, CSS3 and Sass
 
 A web challenge form Frontend Mentor
 
-- 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design to design the hero section of a landing page
+- 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design to design a card component with a Qr image
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/card_qr_code/)
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_qr_code)
 - 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/solutions/bem-and-ba-1OqGdp2ird)
@@ -44,13 +44,23 @@ A web challenge form Frontend Mentor
 - 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/card-with-flexbox-bem-YPltW-3JHO)
 - 🔵 Level: Newbie
 
-### `Article:` preview with social links
+### `Article:` card preview with social links
 
 A web challenge form Frontend Mentor
 
 - 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design.
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/article_preview)
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/article_preview/)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/mobile-first-bem-css-transitions-and-iife-javascript-function-_7SDIFelBd)
+- 🔵 Level: Newbie
+
+### `Article:` order component
+
+A web challenge form Frontend Mentor
+
+- 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design and basic transition.
+- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_order)
+- 🕹️ Live Demo: [link](https://orses.github.io/html-css/card_order/)
 - 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/mobile-first-bem-css-transitions-and-iife-javascript-function-_7SDIFelBd)
 - 🔵 Level: Newbie
 
