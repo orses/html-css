@@ -24,7 +24,7 @@
 
 :root {
   --color-blue-bright: hsl(245, 75%, 52%); /* button, link */
-  --color-blue-dark: hsl(223, 33%, 4%); /* headings */
+  --color-blue-dark: hsl(223, 47%, 23%); /* headings */
   --color-blue-light: hsla(245, 83%, 68%, 1);
   --color-blue-desaturated: hsl(224, 23%, 55%); /* text, Cancel orden*/
   --color-blue-pale: hsl(225, 100%, 94%); /* card details */
@@ -230,6 +230,7 @@ svg {
 }
 
 .card__text {
+  color: var(--color-blue-desaturated);
   font-size: clamp(var(--fs-text), 0.9006rem + 0.1553vw, var(--fs-text-big));
   line-height: clamp(var(--lh-text), 1.5256rem + 0.1553vw, var(--lh-text-big));
   margin-inline: 0.5rem;
@@ -260,6 +261,10 @@ svg {
 /* -----
   DETAILS
 ------------------------------------ */
+.details__currency {
+  color: var(--color-blue-desaturated);
+}
+
 .details__group {
   text-align: left;
 }

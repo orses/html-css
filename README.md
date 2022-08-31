@@ -61,7 +61,7 @@ A web challenge form Frontend Mentor
 - 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design and basic transition.
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_order)
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/card_order/)
-- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/mobile-first-bem-css-transitions-and-iife-javascript-function-_7SDIFelBd)
+- 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/order-component-with-transitions-0zv7mzrZN4)
 - 🔵 Level: Newbie
 
 ### `Grid:` card four features

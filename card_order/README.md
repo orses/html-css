@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/responsive-layout-with-grid-WlZNOBbyaV)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/order-component-with-transitions-0zv7mzrZN4)
 - Live Site URL: [GitHub](https://orses.github.io/html-css/card_order/)
 
 ## My process
