@@ -28,7 +28,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/responsive-layout-with-grid-WlZNOBbyaV)
+- Solution URL: [Fronted Mentor](https://www.frontendmentor.io/solutions/card-with-bem-and-flexbox-Q40JuyvDDw)
 - Live Site URL: [GitHub](https://orses.github.io/html-css/card_profile/)
 
 ## My process

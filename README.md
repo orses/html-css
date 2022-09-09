@@ -21,7 +21,7 @@ A web challenge form Frontend Mentor
 - 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design to design a card component with an image overlaid on the top third of the card
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/card_profile/)
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_profile)
-- 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/solutions/bem-and-ba-1OqGdp2ird)
+- 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/solutions/card-with-bem-and-flexbox-Q40JuyvDDw)
 - 🔵 Level: Newbie
 
 ### `Article:` card preview

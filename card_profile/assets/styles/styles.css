@@ -131,7 +131,7 @@ svg {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space, 1.5rem);
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 /* ==================================
@@ -153,6 +153,8 @@ svg {
   padding-block-end: 1.7rem;
   padding-block-start: 1.7rem;
   text-align: center;
+  padding-inline-start: 3.0625rem;
+  padding-inline-end: 3.4375rem;
 }
 
 .card__main {
