@@ -17,7 +17,7 @@
 :root {
   /* COLORS -------------- */
   --color-blue-dark-desaturated: hsl(229 23% 23%); /* headings */
-  --color-blue-dark-grayish: hsl(227 10% 46%); /* text */
+  --color-blue-dark-grayish: hsl(227, 10%, 46%); /* text */
   --color-cyan-dark: hsl(185 75% 39%);
   --color-gray-dark: hsl(0 0% 59%);
   --color-light: hsl(0 0% 100%);
@@ -172,6 +172,10 @@ svg {
   position: relative;
 }
 
+.card__text {
+  color: var(--color-blue-dark-grayish);
+}
+
 .card__title {
   color: var(--color-blue-dark-desaturated);
   font-size: var(--fs-text-big);
@@ -196,7 +200,7 @@ svg {
 }
 
 .stats__title {
-  color: --color-blue-dark-grayish;
+  color: var(--color-blue-dark-grayish);
   font-size: var(--fs-text-small);
   letter-spacing: var(--ls-text);
   line-height: var(--lh-text-small);
