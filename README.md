@@ -14,6 +14,16 @@ A web challenge form Frontend Mentor
 - 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/solutions/bem-and-ba-1OqGdp2ird)
 - 🔵 Level: Newbie
 
+### `Card:` Card profile
+
+A web challenge form Frontend Mentor
+
+- 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design to design a card component with an image overlaid on the top third of the card
+- 🕹️ Live Demo: [link](https://orses.github.io/html-css/card_profile/)
+- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/card_profile)
+- 🧑‍💻 Frontend Mentor: [link](https://www.frontendmentor.io/solutions/bem-and-ba-1OqGdp2ird)
+- 🔵 Level: Newbie
+
 ### `Article:` card preview
 
 A web challenge form Frontend Mentor
@@ -94,11 +104,21 @@ A web challenge form Frontend Mentor
 - 📄 Frontend Mentor: [link](https://www.frontendmentor.io/solutions/landing-page-with-bem-qww4-99pEs)
 - 🔵 Level: Newbie
 
+### `Landing Page:` Landing Page Meet
+
+A web challenge form Frontend Mentor
+
+- 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design to design a basic landing page to three types of viewport: mobile, tablet and desktop
+- 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/landing_page_meet)
+- 🕹️ Live Demo: [link](https://orses.github.io/html-css/landing_page_meet/)
+- 📄 Frontend Mentor: [link]()
+- 🔵 Level: Newbie
+
 ### `Landing Page:` Landing Page elearning
 
 A web challenge form Frontend Mentor
 
-- 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design a basic landing page with header, main, footer and cards
+- 🎯 Main Goal: Use BEM, flexbox and Mobile First workflow design a basic landing page with header, main, footer and cards to three types of viewport: mobile, tablet and desktop
 - 🗂️ Repository: [link](https://github.com/orses/html-css/tree/main/landing_page_elearning)
 - 🕹️ Live Demo: [link](https://orses.github.io/html-css/landing_page_elearning/)
 - 📄 Solution URL on Frontend Mentor: [link](https://www.frontendmentor.io/solutions/responsive-landing-page-with-bem-and-grid-_GYSJJJK8p)

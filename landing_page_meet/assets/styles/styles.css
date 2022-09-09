@@ -1,0 +1,208 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url(./lib/Google_Fonts/RedHatDisplay-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./lib/Google_Fonts//RedHatDisplay-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url(./lib/Google_Fonts/RedHatDisplay-Black.ttf) format('truetype');
+}
+
+:root {
+  /* fonts */
+  --font-plain: 'Red Hat Display', sans-serif;
+
+  /* colors */
+  --color-primary: hsl(192, 37%, 48%);
+  --color-primary-soft: hsl(192, 90%, 77%);
+  --color-secondary: hsl(268, 34%, 53%);
+  --color-secondary-soft: hsl(268, 100%, 86%);
+  --color-dark: hsl(240, 21%, 20%);
+  --color-light: hsl(0, 0, 98%);
+  --color-gray: hsl(240, 10%, 57%);
+
+  /* Typography */
+  --fs-head1: 2.5rem; /* 40px */
+  --fs-head1-big: 3rem; /* 48px */
+  --fs-head1-bigger: 4rem; /* 64px */
+  --fs-head2: 2rem; /* 32px */
+  --fs-head2-big: 2.5rem; /* 40px */
+  --fs-text: 1rem;
+  --fs-text-big: 1.125rem; /* 18px */
+  --fs-text-biggish: 2.5rem; /* 40px */
+  --fs-text-bigger: 4rem; /* 64px */
+
+  --lh-head1: 2.75rem; /* 44px*/
+  --lh-head1-big: 3rem; /* 48px */
+  --lh-head1-bigger: 4rem; /* 64px */
+  --lh-head2: 2.25rem; /*36px */
+  --lh-head2-big: 2.75rem; /* 44 */
+  --lh-text: 1.625rem; /* 26px */
+
+  --ls-text: 0.25rem; /* 4px */
+
+  --fw-black: 900;
+  --fw-bold: 700;
+  --fw-medium: 500;
+
+  /* measures */
+  --space0: 1rem;
+  --space1: 1.5rem; /* 24px */
+  --space2: 2rem; /* 32px */
+  --space3: 3rem; /* 48px */
+  --space4: 3.375rem; /* 54px */
+  --space5: 4rem; /* 64px */
+  --space6: 4.5rem; /* 72px */
+  --space7: 5rem; /* 80px */
+
+  /* GLOBALS */
+  line-height: var(--lh-text);
+  font-family: var(--font-plain);
+  font-weight: var(--fw-medium);
+  color: var(--color-dark);
+}
+
+/* ==================================
+  RESET
+===================================== */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  background-color: inherit;
+  border: 0 solid;
+  box-sizing: inherit;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  overflow-wrap: normal;
+  padding: 0;
+}
+
+body {
+  font-size: var(--fs-text);
+}
+
+a,
+button {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* ==================================
+  LAYOUT
+===================================== */
+.center-l {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  padding-inline: var(--space1);
+}
+
+.center-l > * {
+  box-sizing: border-box;
+}
+
+.stack--inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stack--inner > :nth-child(2) {
+  margin-block-start: clamp(var(--space1), 0.3182rem + 2.4242vw, var(--space2));
+  margin-block-end: var(--space2);
+}
+
+.stack--outer {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3rem, 1.5rem + 6.3158vw, 4.5rem);
+}
+
+/* ==================================
+  GLOBAL CLASS
+===================================== */
+/* ==================================
+  HERO
+===================================== */
+
+.hero__banner {
+  text-align: center;
+}
+
+.hero__media {
+  order: -1;
+}
+
+.hero__title {
+  margin-block-start: clamp(var(--space3), 1.5rem + 6.3158vw, var(--space6));
+  font-weight: var(--fw-black);
+}
+
+@media screen and (min-width: 1110px) {
+  .hero__title {
+    padding-block-end: 0.125rem;
+  }
+}
+
+/* ==================================
+  LOGO
+===================================== */
+.logo {
+  margin-block-start: clamp(var(--space3), 1rem + 8.4211vw, var(--space7));
+  margin-block-end: clamp(var(--space4), 2.75rem + 2.6316vw, var(--space5));
+}
+
+@media screen and (min-width: 1110px) {
+  .logo {
+    margin-block-end: calc(var(--space5) - 0.1875rem);
+  }
+}
+
+a[download] {
+  color: hsla(216, 70%, 53%, 1);
+  text-decoration: underline;
+}
+
+a[download]::before {
+  content: url('../icons/icon-download.svg');
+  height: 1em;
+  position: relative;
+  top: 0.75em;
+  right: 0.5em;
+  width: 1em;
+}
+
+a[download]:hover,
+a[download]:focus {
+  text-decoration: none;
+}

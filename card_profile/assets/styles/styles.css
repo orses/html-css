@@ -1,0 +1,203 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./lib/Google_Fonts/kumbhSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./lib/Google_Fonts/KumbhSans-Bold.ttf) format('truetype');
+}
+
+:root {
+  /* COLORS -------------- */
+  --color-blue-dark-desaturated: hsl(229 23% 23%); /* headings */
+  --color-blue-dark-grayish: hsl(227 10% 46%); /* text */
+  --color-cyan-dark: hsl(185 75% 39%);
+  --color-gray-dark: hsl(0 0% 59%);
+  --color-light: hsl(0 0% 100%);
+
+  /* TYPOGRAPHY -------------- */
+  /* font size */
+  --fs-text-big: 1.125rem; /* 18px */
+  --fs-text: 0.875rem; /* 14px */
+  --fs-text-small: 0.625rem; /* 10px */
+
+  /* font weight */
+  --fw-bold: 700;
+  --fw-regular: 400;
+
+  /* letter spacing */
+  --ls-text: 0.09375rem; /* 1.5px */
+
+  /* line height */
+  --lh-text-big: 1.375rem; /* 22px */
+  --lh-text: 1.0625rem; /* 17px */
+  --lh-text-small: 0.75rem; /* 12px */
+
+  /* fonts */
+  --font-plain: 'Kumbh Sans', sans-serif;
+
+  /* MEASURES -------------- */
+  --space: 1.5rem; /* 24px */
+
+  /* SETTINGS -------------- */
+  font-family: var(--font-plain);
+  font-size: 1rem;
+  line-height: var(--lh-text);
+}
+
+/* ==================================
+RESET
+===================================== */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  overflow-wrap: break-word;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-color: var(--color-cyan-dark);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -2.5vw top -45vh, right bottom -57vh;
+  font-size: var(--fs-text);
+  line-height: var(--lh-text);
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+:focus {
+  outline: var(--border-thin) solid var(--color-mid);
+  outline-offset: var(--border-thin);
+}
+
+/* ==================================
+  LAYOUT
+===================================== */
+.box-l {
+  border-radius: 0.9375rem;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  outline: 0.125rem solid transparent; /* for accessibility */
+  outline-offset: -0.125rem; /* for accessibility */
+  overflow: hidden;
+  padding: 0;
+}
+
+.center-l {
+  box-sizing: content-box;
+  display: block;
+  margin-inline: auto;
+  max-inline-size: 21.875rem;
+  padding-inline-end: var(--space);
+  padding-inline-start: var(--space);
+}
+
+/* to correct box-sizing: inherit */
+.center-l > * {
+  box-sizing: border-box;
+}
+
+.cover-l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-block-size: 100vh;
+}
+
+.cluster-l {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space, 1.5rem);
+  justify-content: space-evenly;
+}
+
+/* ==================================
+  CARD
+===================================== */
+
+.card__avatar {
+  border: 0.3125rem solid var(--color-light);
+  border-radius: 50%;
+  box-sizing: content-box;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(18%);
+}
+
+.card__footer {
+  background: var(--color-light);
+  padding-block-end: 1.7rem;
+  padding-block-start: 1.7rem;
+  text-align: center;
+}
+
+.card__main {
+  align-items: center;
+  background: var(--color-light);
+  border-bottom: 1px solid hsl(240, 7%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block-end: 1.5625rem;
+  padding-block-start: 4.8rem;
+}
+
+.card__media {
+  background: url(../images/bg-pattern-card.svg) center/cover;
+  height: 8.75rem;
+  position: relative;
+}
+
+.card__title {
+  color: var(--color-blue-dark-desaturated);
+  font-size: var(--fs-text-big);
+  font-weight: var(--fw-bold);
+  margin-block-end: 0.6rem;
+}
+
+.card__title > span {
+  color: var(--color-blue-dark-grayish);
+  font-weight: normal;
+}
+
+/* ==================================
+  STATS
+===================================== */
+
+.stats__value {
+  color: var(--color-blue-dark-desaturated);
+  font-size: var(--fs-text-big);
+  font-weight: var(--fw-bold);
+  padding-block-end: 0.3125rem;
+}
+
+.stats__title {
+  color: --color-blue-dark-grayish;
+  font-size: var(--fs-text-small);
+  letter-spacing: var(--ls-text);
+  line-height: var(--lh-text-small);
+}
